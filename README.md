@@ -1,47 +1,45 @@
 # This is a simple batch helper for yt-dlp
 
-The folder includes:
-
-<li>Latest yt-dlp executable "yt-dlp 2022.11.11" found on: https://github.com/yt-dlp/yt-dlp/releases/ <br>
-<li>"ffmpeg.exe" and "ffprobe.exe" dependencies found on: https://www.gyan.dev/ffmpeg/builds
-
-<li>The batch script I made aka "<b>yt-dlp-helper.bat</b>"
-
 -----------
 
-#### IMPORTANT ####
+## IMPORTANT
 This is a very basic script and will break if not used as intended, please pay attention to the correct syntax and
 read the official yt-dlp documentation here: https://github.com/yt-dlp/yt-dlp
 
 -----------
 
-# How to set it up:
-Find a place for this folder and its contents, then create a shortcut for the "<b>yt-dlp-helper.bat</b>" file anywhere you want. <br>
-Optionally, choose a cool icon for it.
+## How to set it up:
+Create a folder anywhere and we will need a total of 4 files:
+- Download the latest **"yt-dlp.exe"** from here: https://github.com/yt-dlp/yt-dlp/releases/
+- Download the latest **"ffmpeg-git-essentials.7z"** from here: https://www.gyan.dev/ffmpeg/builds
+  - Extract the file, and go to the "**bin**" folder to find the two files we need: "**ffmpeg.exe**" and "**ffprobe.exe**"
+- And finally, download my script "**yt-dlp-helper.bat**" from here.
+
+Find a place for this folder and its contents, then create a shortcut for the "**yt-dlp-helper.bat**" file anywhere you want. <br>
+Optionally, choose a cool icon for the shortcut xD
 
 -----------
 
-# Using the script
-Open the script and type in or paste the URL of the video you want to download.
+## Using the script
+Click on the shortcut and type in or paste the URL of the video you want to download.
 
 Then you can choose between 3 options:
 
-<li>Option 1: Download the video and convert it to mp4 format
-<li>Option 2: Download the audio and convert it to mp3 format
-<li>Option 3: Abort and start over
-<li>Option 3: Exit the script
+- Option 1: Download the video and convert it to mp4 format
+- Option 2: Download the audio and convert it to mp3 format
+- Option 3: Abort and start over
+- Option 3: Exit the script
 
 -----------
 
-# Configuration
+## Configuration
 By default, the downloaded files will be saved to your <b>Downloads</b> folder. <br>
 To change this and other configs, right click the "<b>yt-dlp-helper.bat</b>" file and open it with notepad for example.
 
-In the section "Preferences/Variables" you can change 3 things.
+In the section "**Preferences/Variables**" you can change 3 things:
 
-<li>preferred_path: This is where the files will be saved, note the format used and change it as you wish. <br>
- * Note that <b>%USERPROFILE%</b> is the same as <b>"C:\Users\John"</b>, this is just a shortcut. <br><br>
-
-<li>preferred_video: The format for videos, common values are: mp4, mkv, webm
-<li>preferred_audio: The format for audio, common values are: mp3, wav <br>
- * Refer to yt-dlp documentation for all the available formats: https://github.com/yt-dlp/yt-dlp
+- **preferred_path**: This is where the files will be saved, note the format used and change it as you wish.
+  - Note that "**%USERPROFILE%**" is the same as "**C:\Users\John**", this is just a shortcut.
+- **preferred_video**: The format for video, common values are: mp4, mkv, webm
+- **preferred_audio**: The format for audio, common values are: mp3, wav
+  - Refer to yt-dlp documentation for all the available formats.
