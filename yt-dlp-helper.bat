@@ -34,7 +34,7 @@ CHOICE /C 1234 /M "Enter your choice:"
 
 :: Choices goto
 IF ERRORLEVEL 4 exit
-IF ERRORLEVEL 3 GOTO abort
+IF ERRORLEVEL 3 GOTO start
 IF ERRORLEVEL 2 GOTO audio
 IF ERRORLEVEL 1 GOTO video
 
@@ -72,7 +72,4 @@ echo Example of valid URL: https://www.youtube.com/watch?v=UMeJuq0gnjM
 
 echo Press any key to try again...
 pause >nul
-GOTO start
-
-:abort
 GOTO start
