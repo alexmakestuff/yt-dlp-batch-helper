@@ -13,7 +13,7 @@ Create a folder anywhere and we will need a total of 4 files:
 - Download the latest **"yt-dlp.exe"** from here: https://github.com/yt-dlp/yt-dlp/releases/
 - Download the latest **"ffmpeg-git-essentials.7z"** from here: https://www.gyan.dev/ffmpeg/builds
   - Extract the file, and go to the "**bin**" folder to find the two files we need: "**ffmpeg.exe**" and "**ffprobe.exe**"
-- And finally, download my script "**yt-dlp-helper.bat**" from here.
+- And finally, clone my "**yt-dlp-helper.bat**" from here (you can do it with notepad)
 
 Find a place for this folder and its contents, then create a shortcut for the "**yt-dlp-helper.bat**" file anywhere you want. <br>
 Optionally, choose a cool icon for the shortcut xD
