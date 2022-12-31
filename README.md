@@ -16,7 +16,10 @@ Create a folder anywhere and we will need a total of 4 files:
 - And finally, clone my "**yt-dlp-helper.bat**" from here (you can do it with notepad)
 
 Find a place for this folder and its contents, then create a shortcut for the "**yt-dlp-helper.bat**" file anywhere you want. <br>
-Optionally, choose a cool icon for the shortcut xD
+Optionally, choose a cool icon for the shortcut xD <br>
+
+Here's an example of how your folder should look and how to use it:
+https://youtu.be/tWYuu0pVR64
 
 -----------
 
